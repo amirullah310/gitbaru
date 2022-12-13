@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        
+        body {
+            background-image: linear-gradient(to right, #AFB4FF, #9C9EFE, #A66CFF);
+        }
+
+        .container {
+            width: 100%;
+        }
+
+        form {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        h1 {
+            text-align: center;
+            color: navy;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        h2 {
+            color: navy;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .hero {
+            width: 500px;
+            flex-wrap: wrap;
+            display: flex;
+            margin-left: 150px;
+            margin-top: 50px;
+        }
+
+        .tampilan {
+            background-color: white;
+            width: 800px;
+            border: 1px solid black;
+            height: 300px;
+            margin-left: 200px;
+            margin-top: 100px;   
+        }
+
+        .btn {
+            margin-top: 130px;
+            height: 20px;
+            width: 500px;
+            align-items: center;
+            margin-left: 150px;
+            background-image: linear-gradient(to right, #00E7FF, #009EFF, #0014FF);
+            border-radius: 15px;
+        }
+
+        .nis {
+            margin-left: 40px;
+        }
+
+        .alamat {
+            margin-left: 15px;
+        }
+
+        input {
+            margin-top: 15px;
+            margin-right: 10px;
+        }
+
+        label {
+            margin-top: 15px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Form Data Diri</h1>
+        </div>
+    </div>
+    <div class="tampilan">
+        <h2>Registration</h2>
+    <div class="hero">
+        <form action="">
+            <label for="nama">Nama :</label>
+            <input type="text" name="nama">
+            <label class="alamat" for="alamat">Alamat :</label>
+            <input type="text" name="nama">
+            <label for="umur">Umur :</label>
+            <input type="text" name="nama">
+            <label class="nis" for="nis">Nis :</label>
+            <input type="text" name="nama">
+        </form>
+    </div>
+    <button class="btn" type="submit" class="submit" name="update">Register</button>
+</div>
+</body>
+</html>
